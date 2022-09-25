@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+:root {
+    --background: #ddd;
+    --container-max-width: 1080px;
+    --fontSize: 1.3rem;
+    --link-color: #555;
+}
+
+html {
+  background-color: #3E82B8;
+  font-family: 'Comfortaa', cursive;
+  color: #B9B9F0;
+}
+.calcularMedia {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  padding: 40% 5% 40% 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+#txtNumeros {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#botao {
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 20px;
+  color: #B9B9F0;
+  background-color: #225FF0;
+}
+
+#resultado {
+  background-color: #0254D9;
+  border-radius: 20px;
+  text-align: justify-all;
+  text-align: center;
+}
