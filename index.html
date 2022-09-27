@@ -14,7 +14,7 @@
         for(var i = 0; i < numeros.length; i++) {
         soma = parseFloat(numeros[i]) + soma;
         }
-        soma = soma / numeros.length;
+        soma = Math.round(soma / numeros.length);
         rs = document.getElementById("resultado")
         rs.innerHTML = "A média dos números: " + "<br>" + "<i>" + numeros + "</i>" +"<br>"+ " somados é: "+ "<br>" + soma
 }           
