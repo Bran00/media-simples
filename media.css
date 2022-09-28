@@ -1,55 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
+/*
+  Stop using google fonts, they're bloat.
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*/
+
+* 
+{
+  margin: 0;
+  padding: 0;
 }
 
-:root {
-    --background: #ddd;
-    --container-max-width: 1080px;
-    --fontSize: 1.3rem;
-    --link-color: #555;
+:root 
+{
+  --background: hsl(207, 65%, 15%);
 }
 
-html {
-  background-color: #3E82B8;
-  font-family: 'Comfortaa', cursive;
-  color: #B9B9F0;
-}
-.calcularMedia {
+body
+{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  font-size: 1.5em;
-  padding: 40% 5% 40% 5%;
-  text-align: center;
-  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background);
 }
 
-#txtNumeros {
+body *
+{
+  padding: 1% 0;
+  text-align: center;
+  color: hsl(0, 80%, 95%);
+}
+
+h1
+{
+  font-size: 2.5rem;
+  background-color: hsla(218, 100%, 5%, 0.75);
+}
+
+main
+{
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  font-size: 1em;
-  padding: 5px 5px 5px 5px;
-  border-radius: 10px;
-  font-family: 'Comfortaa', cursive;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 1rem;
 }
 
-#botao {
-  padding: 20px;
-  font-size: 1.5em;
-  font-family: 'Comfortaa', cursive;
-  border-radius: 20px;
-  color: #B9B9F0;
-  background-color: #225FF0;
+span
+{
+  font-size: 1.5rem;
 }
 
-#resultado {
-  background-color: #0254D9;
-  border-radius: 20px;
-  text-align: justify-all;
+#txtNumeros 
+{
+  width: 80%;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: hsl(0, 0%, 0%);
+}
+
+#botao
+{
+  width: fit-content;
+  padding: 2%;
+  font-size: 1.4rem;
+  background-color: hsl(222, 100%, 10%);
+  border-radius: 2rem;
+}
+
+#botao:hover
+{
+  cursor: pointer;
+  border-color: hsl(137, 75%, 50%);
+}
+
+#resultado 
+{
+  width: 80%;
+  background-color: hsla(0, 0%, 0%, 0.6);
   text-align: center;
+  border-radius: 2rem;
 }
