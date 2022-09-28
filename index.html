@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="media.css">
+  <title>TODO supply a title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="media.css">
+  <script defer src="./script.js"></script>
 </head>
-<script>
-        function calcularMedia() {
-        let soma = 0;
-        var numeros = document.getElementById("txtNumeros").value;
-        numeros = numeros.split("+");
-        for(var i = 0; i < numeros.length; i++) {
-        soma = parseFloat(numeros[i]) + soma;
-        }
-        soma = Math.round(soma / numeros.length);
-        rs = document.getElementById("resultado")
-        rs.innerHTML = "A média dos números: " + "<br>" + "<i>" + numeros + "</i>" +"<br>"+ " somados é: "+ "<br>" + soma
-}           
+<script>  
 </script>
 <body>
-       <section class="calcularMedia"></div>
-        <h1>Calculador de média</h1>
-        <p>Coloque os números na caixa abaixo para obter a média:</p>
-        <input type="text" id="txtNumeros" placeholder="1+2+3+4...">
-        </span> <br>
-        <span>
-        <input id="botao" type="button" value="Obter média" onclick="calcularMedia()">
-         </span><br>
-         <div>
-           <h2 id="resultado">
-           </h2>
-         </div>
-        </section>
+  <h1>Calculador de média</h1>
+  <main>
+    <span>Coloque os números na caixa abaixo para obter a média:</span>
+    <input type="text" id="txtNumeros" placeholder="1+2+3+4...">
+    <input id="botao" type="button" value="Obter média">
+    <h2 id="resultado">Resultado</h2>
+  </main>
 </body>
 </html>
