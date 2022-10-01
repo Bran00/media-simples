@@ -20,7 +20,7 @@ function calcularMedia()
     soma = parseFloat(numeros[i]) + soma;
   }
 
-  soma = Math.round(soma / numeros.length);
+  soma = soma / numeros.length;
   resultado = document.getElementById("resultado")
   
   resultado.innerHTML = "A média dos números: " 
