@@ -84,11 +84,9 @@ The following are our current teams with their awesome members and contact info:
 | <img src="https://github.com/YasminAlmeida.png" width="100"> | [Yasmin Almeida](https://github.com/YasminAlmeida) |  Software Engineer |
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <!--! | <img src="https://github.com/junio12o.png" width="100">  | hi | :) | -->
-<!--! | <img src="https://github.com/junio12o.png" width="100">  | hi | :) | -->
+<!--! | | <img src="https://avatars.githubusercontent.com/u/20804404?v=4" width="100"> | [Vinicius Rossado](https://github.com/vinirossado) | Software Engineer |<img src="https://github.com/junio12o.png" width="100">  | hi | :) | -->
 
 </td>
 
 </table>
 </div>
-
-| <img src="https://avatars.githubusercontent.com/u/20804404?v=4" width="100"> | [Vinicius Rossado](https://github.com/vinirossado) | Software Engineer |
