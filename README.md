@@ -81,7 +81,7 @@ The following are our current teams with their awesome members and contact info:
 | <img src="https://github.com/Bran00.png" width="100"> | [Brando Rocha](https://github.com/Bran00) |  Software Engineer |
 | <img src="https://github.com/MarkimQ.png" width="100"> | [Marco Queiroz](https://github.com/MarkimQ) |  Software Engineer |
 | <img src="https://github.com/joaodslourenco.png" width="100"> | [João Lourenço](https://github.com/joaodslourenco) |  Software Engineer |
-| <img src="https://github.com/YasminAlmeida.png" width="100"> | [Yasmin Almeida](https://github.com/YasminAlmeida) |  Software Engineer |
+| <img src="https://avatars.githubusercontent.com/u/20804404?v=4" width="100"> | [Vinicius Rossado](https://github.com/vinirossado) | Software Engineer || <img src="https://github.com/YasminAlmeida.png" width="100"> | [Yasmin Almeida](https://github.com/YasminAlmeida) |  Software Engineer |
 </td>
 
 </table>
