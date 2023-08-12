@@ -1,4 +1,4 @@
-"# About Forja
+# About Forja
 
 Forja Dev is an inclusive and welcoming community that believes in everyone's potential to achieve success. Built on this principle, we value the diversity and contribution of each member.
 
@@ -89,4 +89,4 @@ The following are our current teams with their awesome members and contact info:
 </td>
 
 </table>
-</div>"
+</div>
