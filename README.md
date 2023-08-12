@@ -90,3 +90,5 @@ The following are our current teams with their awesome members and contact info:
 
 </table>
 </div>
+
+| <img src="https://avatars.githubusercontent.com/u/20804404?v=4" width="100"> | [Vinicius Rossado](https://github.com/vinirossado) | Software Engineer |
